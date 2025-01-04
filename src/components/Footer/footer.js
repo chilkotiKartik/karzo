@@ -102,7 +102,7 @@ const Footer = () => {
             />
           </div>
           <p className="text-lg ml-6 text-white">
-            Made by : <strong>Team Geeks_on_Fire</strong>
+            Made by : <strong>Team Karzo </strong>
           </p>
         </div>
         <div className="flex-1 flex mr-6">
