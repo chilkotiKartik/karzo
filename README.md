@@ -36,3 +36,6 @@ Install the Dependencies from npm
 $ npm i
 Run the Server and see the demo at http://localhost:3000/
 $ npm start
+
+
+ link for farmers shop :-https://agro-stores.netlify.app/
