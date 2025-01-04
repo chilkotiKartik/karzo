@@ -1,62 +1,38 @@
-Farmer Project
-Overview
-The Farmer Project is a platform designed to empower farmers by providing them with tools and resources to enhance their agricultural practices. It connects farmers with buyers, offers real-time weather updates, market trends, and farming tips, and fosters a community of knowledge sharing.
+Problem Statement (AGRI12)
+
+AI-based voice-assisted Contact Center for assisting Farmers for their problems. Farmers can log their problems with the contact center thru phone calls / SMS / website and in return an automated voice response can be provided to the farmers with a most appropriate solution for their problems.
+
+UNESCO India - Africa Hackathon
+
 
 Features
-Marketplace: A platform for farmers to list and sell their produce directly to buyers.
-Weather Updates: Real-time weather forecasts and alerts to help farmers plan their activities.
-Farming Tips: A collection of best practices and guides for sustainable agriculture.
-Community Forum: A space for farmers to ask questions, share experiences, and seek advice.
-Crop Management: Tools for tracking crop health, irrigation, and fertilization schedules.
-Technologies Used
-Frontend: HTML, CSS, JavaScript, React
-Backend: Node.js, Express.js
-Database: MongoDB
-Hosting: AWS
-Other Tools: WordPress for blog integration, APIs for weather and market data.
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/username/farmer-project.git
-Navigate to the project directory:
-bash
-Copy code
-cd farmer-project
-Install dependencies:
-bash
-Copy code
-npm install
-Set up environment variables:
-Create a .env file in the root directory.
-Add the required variables, such as API keys and database URLs.
-Start the development server:
-bash
-Copy code
-npm start
-Usage
-Access the platform locally at http://localhost:3000.
-Register as a farmer or buyer to explore features.
-Use the admin panel to manage content and users (if you have admin rights).
-Contributing
-We welcome contributions! To get started:
+Localization
+Provides best solutions to the farmer's problem using NLP algorithm and knowledge base repository.
+Crop Recommendation
+Fertilizer Recommendation
+Disease Prediction
+Weather Forecasting
+AI Voice Assistance
+Voice SMS in the local language
+Technology Stack:
+      
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Description of changes"
-Push to your branch:
-bash
-Copy code
-git push origin feature-name
-Submit a pull request.
-License
-This project is licensed under the MIT License.
-
-Contact
-For questions or feedback, reach out to Kartik Chilkoti
+Frontend: React
+Backend: Flask
+IDE: VS Code
+Design: Figma, Canva
+API Testing & Documentation: Postman
+Version Control: Git and GitHub
+How to Get Started?
+GitHub Repository Structure
+S.No.	Branch Name	Purpose
+1.	master	contains all Frontend code
+2.	backend	contains all Backend code
+3.	ml	contains all ML code
+Frontend Setup Instructions
+Fork and Clone the repo using
+$ git clone 
+Install the Dependencies from npm
+$ npm i
+Run the Server and see the demo at http://localhost:3000/
+$ npm start
